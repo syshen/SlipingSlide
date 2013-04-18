@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8022460F171D8CF000BD524E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8022460E171D8CF000BD524E /* UIKit.framework */; };
+		80224611171D8CF000BD524E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80224610171D8CF000BD524E /* Foundation.framework */; };
+		80224613171D8CF000BD524E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80224612171D8CF000BD524E /* CoreGraphics.framework */; };
+		80224619171D8CF000BD524E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80224617171D8CF000BD524E /* InfoPlist.strings */; };
+		8022461B171D8CF000BD524E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8022461A171D8CF000BD524E /* main.m */; };
+		8022461F171D8CF000BD524E /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8022461E171D8CF000BD524E /* SSAppDelegate.m */; };
+		80224621171D8CF100BD524E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80224620171D8CF000BD524E /* Default.png */; };
+		80224623171D8CF100BD524E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80224622171D8CF100BD524E /* Default@2x.png */; };
+		80224625171D8CF100BD524E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80224624171D8CF100BD524E /* Default-568h@2x.png */; };
+		80224628171D8CF100BD524E /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80224627171D8CF100BD524E /* SSViewController.m */; };
+		8022462B171D8CF100BD524E /* SSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80224629171D8CF100BD524E /* SSViewController.xib */; };
+		80224633171D8D1900BD524E /* SSSlipingSlideLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 80224632171D8D1900BD524E /* SSSlipingSlideLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8022460B171D8CF000BD524E /* SlipingSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlipingSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8022460E171D8CF000BD524E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80224610171D8CF000BD524E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80224612171D8CF000BD524E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80224616171D8CF000BD524E /* SlipingSlide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlipingSlide-Info.plist"; sourceTree = "<group>"; };
+		80224618171D8CF000BD524E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8022461A171D8CF000BD524E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8022461C171D8CF000BD524E /* SlipingSlide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlipingSlide-Prefix.pch"; sourceTree = "<group>"; };
+		8022461D171D8CF000BD524E /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		8022461E171D8CF000BD524E /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		80224620171D8CF000BD524E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80224622171D8CF100BD524E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80224624171D8CF100BD524E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		80224626171D8CF100BD524E /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		80224627171D8CF100BD524E /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		8022462A171D8CF100BD524E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSViewController.xib; sourceTree = "<group>"; };
+		80224631171D8D1900BD524E /* SSSlipingSlideLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSlipingSlideLayout.h; sourceTree = "<group>"; };
+		80224632171D8D1900BD524E /* SSSlipingSlideLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSlipingSlideLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80224608171D8CF000BD524E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8022460F171D8CF000BD524E /* UIKit.framework in Frameworks */,
+				80224611171D8CF000BD524E /* Foundation.framework in Frameworks */,
+				80224613171D8CF000BD524E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80224602171D8CF000BD524E = {
+			isa = PBXGroup;
+			children = (
+				80224614171D8CF000BD524E /* SlipingSlide */,
+				8022460D171D8CF000BD524E /* Frameworks */,
+				8022460C171D8CF000BD524E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8022460C171D8CF000BD524E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8022460B171D8CF000BD524E /* SlipingSlide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8022460D171D8CF000BD524E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8022460E171D8CF000BD524E /* UIKit.framework */,
+				80224610171D8CF000BD524E /* Foundation.framework */,
+				80224612171D8CF000BD524E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80224614171D8CF000BD524E /* SlipingSlide */ = {
+			isa = PBXGroup;
+			children = (
+				8022461D171D8CF000BD524E /* SSAppDelegate.h */,
+				8022461E171D8CF000BD524E /* SSAppDelegate.m */,
+				80224626171D8CF100BD524E /* SSViewController.h */,
+				80224627171D8CF100BD524E /* SSViewController.m */,
+				80224631171D8D1900BD524E /* SSSlipingSlideLayout.h */,
+				80224632171D8D1900BD524E /* SSSlipingSlideLayout.m */,
+				80224629171D8CF100BD524E /* SSViewController.xib */,
+				80224615171D8CF000BD524E /* Supporting Files */,
+			);
+			path = SlipingSlide;
+			sourceTree = "<group>";
+		};
+		80224615171D8CF000BD524E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80224616171D8CF000BD524E /* SlipingSlide-Info.plist */,
+				80224617171D8CF000BD524E /* InfoPlist.strings */,
+				8022461A171D8CF000BD524E /* main.m */,
+				8022461C171D8CF000BD524E /* SlipingSlide-Prefix.pch */,
+				80224620171D8CF000BD524E /* Default.png */,
+				80224622171D8CF100BD524E /* Default@2x.png */,
+				80224624171D8CF100BD524E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8022460A171D8CF000BD524E /* SlipingSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8022462E171D8CF100BD524E /* Build configuration list for PBXNativeTarget "SlipingSlide" */;
+			buildPhases = (
+				80224607171D8CF000BD524E /* Sources */,
+				80224608171D8CF000BD524E /* Frameworks */,
+				80224609171D8CF000BD524E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlipingSlide;
+			productName = SlipingSlide;
+			productReference = 8022460B171D8CF000BD524E /* SlipingSlide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80224603171D8CF000BD524E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = syshen;
+			};
+			buildConfigurationList = 80224606171D8CF000BD524E /* Build configuration list for PBXProject "SlipingSlide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80224602171D8CF000BD524E;
+			productRefGroup = 8022460C171D8CF000BD524E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8022460A171D8CF000BD524E /* SlipingSlide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80224609171D8CF000BD524E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80224619171D8CF000BD524E /* InfoPlist.strings in Resources */,
+				80224621171D8CF100BD524E /* Default.png in Resources */,
+				80224623171D8CF100BD524E /* Default@2x.png in Resources */,
+				80224625171D8CF100BD524E /* Default-568h@2x.png in Resources */,
+				8022462B171D8CF100BD524E /* SSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80224607171D8CF000BD524E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8022461B171D8CF000BD524E /* main.m in Sources */,
+				8022461F171D8CF000BD524E /* SSAppDelegate.m in Sources */,
+				80224628171D8CF100BD524E /* SSViewController.m in Sources */,
+				80224633171D8D1900BD524E /* SSSlipingSlideLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80224617171D8CF000BD524E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80224618171D8CF000BD524E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80224629171D8CF100BD524E /* SSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8022462A171D8CF100BD524E /* en */,
+			);
+			name = SSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8022462C171D8CF100BD524E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8022462D171D8CF100BD524E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8022462F171D8CF100BD524E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlipingSlide/SlipingSlide-Prefix.pch";
+				INFOPLIST_FILE = "SlipingSlide/SlipingSlide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80224630171D8CF100BD524E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlipingSlide/SlipingSlide-Prefix.pch";
+				INFOPLIST_FILE = "SlipingSlide/SlipingSlide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80224606171D8CF000BD524E /* Build configuration list for PBXProject "SlipingSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8022462C171D8CF100BD524E /* Debug */,
+				8022462D171D8CF100BD524E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8022462E171D8CF100BD524E /* Build configuration list for PBXNativeTarget "SlipingSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8022462F171D8CF100BD524E /* Debug */,
+				80224630171D8CF100BD524E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80224603171D8CF000BD524E /* Project object */;
+}
