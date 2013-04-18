@@ -65,7 +65,9 @@
 }
 
 - (CGPoint) targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity {
-  NSInteger base = (NSInteger)(proposedContentOffset.y / self.minItemHeight);
+  NSInteger base = (NSInteger)(self.collectionView.contentOffset.y / self.minItemHeight);
+  if (velocity.y > 0)
+    base ++;
   return CGPointMake(proposedContentOffset.x, base * self.minItemHeight);
 }
 @end
