@@ -1,6 +1,6 @@
 SlipingSlide
 ============
 
-Simulate the effects from Applauze app
+Simulate the tableView effect from Applauze app
 
-See the video: http://youtu.be/e3YozNjrvl8
+Watch the video: http://youtu.be/e3YozNjrvl8
