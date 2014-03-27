@@ -59,6 +59,10 @@
   return [NSArray arrayWithArray:attributes];
 }
 
+- (CGSize)collectionViewContentSize {
+  NSInteger numOfItem = [self.collectionView numberOfItemsInSection:0];
+  return CGSizeMake(self.collectionView.frame.size.width, numOfItem * self.minItemHeight + self.collectionView.frame.size.height - self.minItemHeight);
+}
 
 - (BOOL) shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds {
   return YES;
